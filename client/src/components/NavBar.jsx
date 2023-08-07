@@ -1,47 +1,27 @@
 import React from 'react'
 
 export default function NavBar() {
-  return (
-    <div>
-        <nav ClassName ="navbar navbar-expand-lg bg-body-tertiary">
-  <div ClassName ="container-fluid">
-    <a ClassName ="navbar-brand" href="#">Navbar</a>
-    <button ClassName ="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span ClassName ="navbar-toggler-icon"></span>
-    </button>
-    <div ClassName ="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul ClassName ="navbar-nav me-auto mb-2 mb-lg-0">
-        <li ClassName ="nav-item">
-          <a ClassName ="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li ClassName ="nav-item">
-          <a ClassName ="nav-link" href="#">Link</a>
-        </li>
-        <li ClassName ="nav-item dropdown">
-          <a ClassName ="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul ClassName ="dropdown-menu">
-            <li><a ClassName ="dropdown-item" href="#">Action</a></li>
-            <li><a ClassName ="dropdown-item" href="#">Another action</a></li>
-            <li><hr ClassName ="dropdown-divider" /></li>
-            <li><a ClassName ="dropdown-item" href="#" >Something else here</a></li>
-          </ul>
-        </li>
-        <li ClassName ="nav-item">
-          <a ClassName ="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form ClassName ="d-flex" role="search">
-        <input ClassName ="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-        <button ClassName ="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-
-    </div>
-    
-  )
+    return (
+        <div>
+            <nav className="navbar navbar-expand-sm bg-body-tertiary">
+                <div className='container-fluid'>
+                    <a className='navbar-brand' href="#">News App</a>
+                    <div className="collapse navbar-collapse" id='navbarNav'>
+                        <ul className='navbar-nav'>
+                            <li className='nav-item'>
+                                <a className='nav-link active' href="#">Home</a>
+                            </li>
+                            <li className='nav-item'>
+                                <a className='nav-link active' href="#">About</a>
+                            </li>
+                            <li className='nav-item'>
+                                <a className='nav-link active' href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    )
 };
 
